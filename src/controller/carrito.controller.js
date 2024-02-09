@@ -8,7 +8,7 @@ carrito.mostrar = (req, res) => {
 }
 
 carrito.mandar = async (req, res) => {
-    const id = req.idBebidas
+    const id = req.idCarro
     const {nombre, limite, estado} = req.body
     const nuevoCarrito = {
         nombre,
